@@ -34,7 +34,7 @@ Aziz Najjar · Formal Semantics, Spring 2026, ELTE
 
 ```bash
 # Clone
-git clone https://github.com/<your-username>/formal-verification-ai
+git clone https://github.com/Njoura7/formal-verification-ai
 cd formal-verification-ai
 
 # Download the pre-built Mathlib cache (≈ 1 GB, one-time)
