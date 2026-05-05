@@ -1,4 +1,5 @@
 import Mathlib.Data.Fin.Basic
+import Mathlib.Data.Fin.Tuple.Basic
 
 /-!
 # Example 2 — Vector Dimension Safety

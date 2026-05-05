@@ -1,0 +1,10 @@
+# Lake build artifacts
+.lake/build/
+.lake/packages/
+
+# Compiled Lean files
+**/*.olean
+**/*.olean.trace
+**/*.ilean
+
+# Toolchain file is fine to keep
