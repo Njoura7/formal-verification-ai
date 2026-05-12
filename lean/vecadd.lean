@@ -1,5 +1,4 @@
-import Mathlib.Data.Fin.Basic
-import Mathlib.Data.Fin.Tuple.Basic
+import Mathlib
 
 /-!
 # Example 2 — Vector Dimension Safety
@@ -18,8 +17,7 @@ Course connection (Lec. 1):
 -/
 
 -- `Fin n → ℝ` is a vector of exactly n real numbers.
--- The type itself carries the length constraint.
-def vecAdd (a b : Fin n → ℝ) : Fin n → ℝ :=
+def vecAdd {n : ℕ} (a b : Fin n → ℝ) : Fin n → ℝ :=
   fun i => a i + b i
 
 -- Sample vectors
