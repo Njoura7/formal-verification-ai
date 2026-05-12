@@ -1,0 +1,7 @@
+services:
+  lean:
+    build: .
+    volumes:
+      - ./lean:/workspace/lean
+    working_dir: /workspace
+    command: lake build
